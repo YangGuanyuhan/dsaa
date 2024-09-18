@@ -7,40 +7,44 @@ public class lab1testE {
 
 
         Scanner in = new Scanner(System.in);
-        int a = in.nextInt();
-        int b = in.nextInt();
-        int c = in.nextInt();
-        char[][] cuboid = new char[(b + c) * 2 + 1][(a + b) * 2 + 1];
-        for (int i = 0; i < (b + c) * 2 + 1; i++) {
-            for (int j = 0; j < (a + b) * 2 + 1; j++) {
-                cuboid[i][j] = '.';
+        int n = in.nextInt();
+        for (int k = 0; k < n; k++) {
+
+
+            int a = in.nextInt();
+            int b = in.nextInt();
+            int c = in.nextInt();
+            char[][] cuboid = new char[(b + c) * 2 + 1][(a + b) * 2 + 1];
+            for (int i = 0; i < (b + c) * 2 + 1; i++) {
+                for (int j = 0; j < (a + b) * 2 + 1; j++) {
+                    cuboid[i][j] = '.';
+                }
             }
+            printTop(b, a, cuboid);
+            printFront(c, a, cuboid, b);
+            printSide(a, b, c, cuboid);
+            print2DCharArray(cuboid);
         }
-//        printTop(b, a, cuboid);
-//
-//        printFront(c, a, cuboid, b);
-
-        printSide(a,b, c, cuboid);
-
-
-
-
-        print2DCharArray(cuboid);
 
 
     }
     private static void printSide(int a,int b, int c, char[][] cuboid) {
         for (int i = 0; i < b; i++) {
             for (int j = 0; j < c; j++) {
-                cuboid[2*b+2*j][2*i+2*a] = '+';
-                cuboid[2*b+2*j+1][2*i+2*a] = '|';
-                cuboid[2*b+2*j][2*i+2*a] = '+';
+                cuboid[2*b+2*j-2*i][2*i+2*a] = '+';
+                cuboid[2*b+2*j-2*i+1][2*i+2*a] = '|';
+                cuboid[2*b+2*c-2*i][2*i+2*a] = '+';
             }
             for (int j = 0; j < c; j++) {
-                cuboid[2*j+2*b][2*i+2*a] = '/';
-                cuboid[2*j+2*b][2*i+2*a] = '.';
-                cuboid[2*j+2*b][2*i+2*a] = '/';
+                cuboid[2*j+2*b-2*i-1][2*i+2*a+1] = '/';
+                cuboid[2*j+2*b-2*i][2*i+2*a+1] = '.';
+                cuboid[2*c+2*b-2*i-1][2*i+2*a+1] = '/';
             }
+        }
+        for (int j = 0; j < c; j++) {
+            cuboid[2*b+2*j-2*b][2*b+2*a] = '+';
+            cuboid[2*b+2*j-2*b+1][2*b+2*a] = '|';
+            cuboid[2*b+2*c-2*b][2*b+2*a] = '+';
         }
 
     }
