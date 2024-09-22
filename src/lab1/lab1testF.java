@@ -3,62 +3,72 @@ package lab1;
 import java.util.Scanner;
 public class lab1testF {
     public static void main(String[] args) {
-        int[][] MahhJong = new int[4][10];
         Scanner in = new Scanner(System.in);
-        String str = in.next();
-        String[] parts = str.split("(?<=\\G\\d\\w)");  // 按照数字+字母的组合切割
-        for (String part : parts) {
-            int row ;
-            int col = Character.getNumericValue(part.charAt(0));
-            switch (part.charAt(1)) {
-                case 'w':
-                    row = 0;
-                    break;
-                case 'b':
-                    row = 1;
-                    break;
-                case 's':
-                    row = 2;
-                    break;
-                default:
-                    row = 3;
-                    break;
-            }
-
-            MahhJong[row][col]++;
-            MahhJong[row][0]++;
-        }
-
-        for (int i = 0; i < 4; i++) {
-            for (int j = 1; j < 10; j++) {
-                if (MahhJong[i][j] >=2) {
-                    MahhJong[i][j] -= 2;
-                    MahhJong[i][0] -= 2;
-                    if (checkwbs(MahhJong)&&checkz(MahhJong)) {
-                        System.out.println("Blessing of Heaven");
-                        return;
-                    }
-                    MahhJong[i][j] += 2;
-                    MahhJong[i][0] += 2;
+        int testnumber= in.nextInt();
+        outloop:
+        for (int p = 0; p < testnumber; p++) {
 
 
+            int[][] MahhJong = new int[4][10];
+            String str = in.next();
+            String[] parts = str.split("(?<=\\G\\d\\w)");
+            for (String part : parts) {
+                int row;
+                int col = Character.getNumericValue(part.charAt(0));
+                switch (part.charAt(1)) {
+                    case 'w':
+                        row = 0;
+                        break;
+                    case 'b':
+                        row = 1;
+                        break;
+                    case 's':
+                        row = 2;
+                        break;
+                    default:
+                        row = 3;
+                        break;
                 }
+
+                MahhJong[row][col]++;
+                MahhJong[row][0]++;
             }
 
+            for (int i = 0; i < 4; i++) {
+                for (int j = 1; j < 10; j++) {
+                    if (MahhJong[i][j] >= 2) {
+                        MahhJong[i][j] -= 2;
+                        MahhJong[i][0] -= 2;
+                        if (checkwbs(MahhJong) &&
+                                checkz(MahhJong)) {
+                            System.out.println("Blessing of Heaven");
+                            continue outloop;
+                        }
+                        MahhJong[i][j] += 2;
+                        MahhJong[i][0] += 2;
+
+
+                    }
+                }
+
+            }
+            System.out.println("Bad luck");
+
         }
-        System.out.println("Bad luck");
-
-
-
-        //   print2dArray(MahhJong);
     }
     private static boolean checkz(int[][] MahhJong) {
         for (int i = 1; i <10; i++) {
             if (MahhJong[3][0] == 0) {
                 return true;
             }
-            if (MahhJong[3][i] % 3 != 0) {
-                return false;
+            if (MahhJong[3][i] >= 3) {
+                MahhJong[3][i] -= 3;
+                MahhJong[3][0] -= 3;
+                if (checkz(MahhJong)) {
+                    return true;
+                }
+                MahhJong[3][i] += 3;
+                MahhJong[3][0] += 3;
             }
         }
         return false;
@@ -96,12 +106,4 @@ public class lab1testF {
         return false;
     }
 
-    private static void print2dArray(int[][] MahhJong) {
-        for (int i = 0; i < MahhJong.length; i++) {
-            for (int j = 0; j < MahhJong[i].length; j++) {
-                System.out.print(MahhJong[i][j] + " ");  // 打印每个元素
-            }
-            System.out.println();  // 换行打印
-        }
-    }
 }
