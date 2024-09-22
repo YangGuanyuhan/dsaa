@@ -1,9 +1,6 @@
 package lab1;
 
 import java.util.Scanner;
-import java.util.zip.CheckedInputStream;
-import java.util.zip.Checksum;
-
 public class lab1testF {
     public static void main(String[] args) {
         int[][] MahhJong = new int[4][10];
@@ -58,13 +55,13 @@ public class lab1testF {
     private static boolean checkz(int[][] MahhJong) {
         for (int i = 0; i <10; i++) {
             if (MahhJong[3][0] == 0) {
-                continue;
+                return true;
             }
             if (MahhJong[3][i] % 3 != 0) {
                 return false;
             }
         }
-        return true;
+        return false;
     }
     private static boolean checkwbs(int[][] MahhJong) {
         for (int i = 0; i < MahhJong.length-1; i++) {
