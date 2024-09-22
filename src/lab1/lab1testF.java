@@ -53,7 +53,7 @@ public class lab1testF {
         //   print2dArray(MahhJong);
     }
     private static boolean checkz(int[][] MahhJong) {
-        for (int i = 0; i <10; i++) {
+        for (int i = 1; i <10; i++) {
             if (MahhJong[3][0] == 0) {
                 return true;
             }
@@ -65,8 +65,8 @@ public class lab1testF {
     }
     private static boolean checkwbs(int[][] MahhJong) {
         for (int i = 0; i < MahhJong.length-1; i++) {
-            for (int j = 0; j < MahhJong[i].length; j++) {
-                if (MahhJong[0][0] == 0&&MahhJong[1][0]==0&&MahhJong[2][0]==0&&MahhJong[3][0]==0) {
+            for (int j = 1; j < MahhJong[i].length; j++) {
+                if (MahhJong[0][0] == 0&&MahhJong[1][0]==0&&MahhJong[2][0]==0) {
                     return true;
                 }
                 if (MahhJong[i][j] >= 3) {
