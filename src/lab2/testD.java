@@ -23,7 +23,7 @@ public class testD {
             return;
         }
         for (long i = 2; i <= 720; i++) {
-            answer = (answer * i) % m;
+            answer = (answer * i%m) % m;
 
         }
         System.out.println(answer);

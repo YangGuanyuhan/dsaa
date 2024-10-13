@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d7406fe-8521-4101-8ad4-b38ba9bee620" name="Changes" comment="4">
-      <change afterPath="$PROJECT_DIR$/src/lab1/lab1testE.java" afterDir="false" />
+    <list default="true" id="1d7406fe-8521-4101-8ad4-b38ba9bee620" name="Changes" comment="Merge remote-tracking branch 'github/master'">
+      <change afterPath="$PROJECT_DIR$/ba.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab2/demo3gpt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab2/examtestc2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab2/findMinorMaxindexinazrray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab2/testC2_0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab2/testC3_0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab2/testC4_0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab2/testC5_0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learningExperience/MonteCarloPi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_9_22_12_34_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_9_22_12_34__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/testC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/testC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/testD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/testD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,41 +49,76 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/random.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2luGINeYnxrUnwQv9mt5DJewMOl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.lab1.executor": "Run",
-    "Application.lab1test2.executor": "Run",
-    "Application.lab1test3.executor": "Run",
-    "Application.lab1test4.executor": "Run",
-    "Application.lab1testE.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MonteCarloPi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo3gpt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lab1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lab1test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lab1test3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lab1test4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lab1testE.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lab1testF.executor&quot;: &quot;Run&quot;,
+    &quot;Application.random.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testA.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testC.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testC2_0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testC3_0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testC4_0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testD.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.lab1test3.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.lab1testF.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.random.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.random">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learningExperience.BinarySearch" />
+      <module name="dsaa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learningExperience.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="lab1testE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab1.lab1testE" />
       <module name="dsaa" />
-      <option name="REDIRECT_INPUT" value="true" />
       <option name="INPUT_FILE" value="$PROJECT_DIR$/src/lab1/tset.txt" />
       <extension name="coverage">
         <pattern>
@@ -83,9 +130,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lab1testF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab1.lab1testF" />
+      <module name="dsaa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="random" type="Application" factoryName="Application" nameIsGenerated="true">
+      <output_file path="ba.txt" is_save="true" />
+      <option name="MAIN_CLASS_NAME" value="random" />
+      <module name="dsaa" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab2.testC" />
+      <module name="dsaa" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/src/lab2/examtestc.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.random" />
+      <item itemvalue="Application.testC" />
+      <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.lab1testE" />
+      <item itemvalue="Application.lab1testF" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lab1testE" />
+        <item itemvalue="Application.testC" />
+        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +204,32 @@
       <workItem from="1726195854885" duration="2956000" />
       <workItem from="1726544365112" duration="195000" />
       <workItem from="1726628259949" duration="857000" />
-      <workItem from="1726629133674" duration="3558000" />
+      <workItem from="1726629133674" duration="3925000" />
+      <workItem from="1726668390528" duration="2064000" />
+      <workItem from="1726888931735" duration="5424000" />
+      <workItem from="1726931897754" duration="1472000" />
+      <workItem from="1726977315920" duration="2397000" />
+      <workItem from="1726979746629" duration="279000" />
+      <workItem from="1726980039115" duration="3583000" />
+      <workItem from="1726986322655" duration="1687000" />
+      <workItem from="1726988771495" duration="2377000" />
+      <workItem from="1726991903113" duration="133000" />
+      <workItem from="1726992046840" duration="1417000" />
+      <workItem from="1726997395787" duration="2309000" />
+      <workItem from="1727014945785" duration="267000" />
+      <workItem from="1727015475046" duration="599000" />
+      <workItem from="1727231916407" duration="6109000" />
+      <workItem from="1728229587590" duration="190000" />
+      <workItem from="1728440718780" duration="3424000" />
+      <workItem from="1728446511756" duration="1245000" />
+      <workItem from="1728544590837" duration="10565000" />
+      <workItem from="1728574623610" duration="515000" />
+      <workItem from="1728718901991" duration="318000" />
+      <workItem from="1728801908852" duration="16000" />
+      <workItem from="1728803732688" duration="2264000" />
+      <workItem from="1728807786568" duration="4120000" />
+      <workItem from="1728812126570" duration="487000" />
+      <workItem from="1728834253739" duration="1506000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -172,7 +287,127 @@
       <option name="project" value="LOCAL" />
       <updated>1726628283854</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1726633006420</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726633006420</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1726633026903</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726633026903</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1726670299152</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726670299153</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1726670321924</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726670321924</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1726670405653</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726670405653</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'github/master'">
+      <option name="closed" value="true" />
+      <created>1726979624981</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726979624981</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'github/master'">
+      <option name="closed" value="true" />
+      <created>1726979926509</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726979926509</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Merge remote-tracking branch 'github/master'">
+      <option name="closed" value="true" />
+      <created>1726980313998</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726980313998</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge remote-tracking branch 'github/master'">
+      <option name="closed" value="true" />
+      <created>1726980439114</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726980439114</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'github/master'">
+      <option name="closed" value="true" />
+      <created>1726980525003</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1726980525003</updated>
+    </task>
+    <task id="LOCAL-00018" summary="5">
+      <option name="closed" value="true" />
+      <created>1726981138639</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1726981138639</updated>
+    </task>
+    <task id="LOCAL-00019" summary="6">
+      <option name="closed" value="true" />
+      <created>1726991931727</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726991931727</updated>
+    </task>
+    <task id="LOCAL-00020" summary="6">
+      <option name="closed" value="true" />
+      <created>1727000275721</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1727000275721</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Merge remote-tracking branch 'github/master'">
+      <option name="closed" value="true" />
+      <created>1728229680609</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1728229680609</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Merge remote-tracking branch 'github/master'">
+      <option name="closed" value="true" />
+      <created>1728544663366</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1728544663366</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,10 +425,25 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="first commit2" />
     <MESSAGE value="3" />
     <MESSAGE value="4" />
-    <option name="LAST_COMMIT_MESSAGE" value="4" />
+    <MESSAGE value="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="5" />
+    <MESSAGE value="6" />
+    <MESSAGE value="Merge remote-tracking branch 'github/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'github/master'" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
