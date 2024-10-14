@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7406fe-8521-4101-8ad4-b38ba9bee620" name="Changes" comment="Merge remote-tracking branch 'github/master'">
-      <change afterPath="$PROJECT_DIR$/ba.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/demo3gpt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/examtestc2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/findMinorMaxindexinazrray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/testC2_0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/testC3_0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/testC4_0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/testC5_0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learningExperience/MonteCarloPi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_9_22_12_34_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_9_22_12_34__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab2/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab2/testF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab2/testF2_0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab2/testF3_0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab2/testF5_0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab2/testF6_0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab2/testC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/testC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab2/testD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/testD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +47,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/random.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -63,46 +61,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MonteCarloPi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.demo2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.demo3gpt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1test2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1test3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1test4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1testE.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1testF.executor&quot;: &quot;Run&quot;,
-    &quot;Application.random.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testA.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testB.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testC.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testC2_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testC3_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testC4_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testD.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.lab1test3.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.lab1testF.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.random.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BinarySearch.executor": "Run",
+    "Application.MonteCarloPi.executor": "Run",
+    "Application.demo.executor": "Run",
+    "Application.demo2.executor": "Run",
+    "Application.demo3gpt.executor": "Run",
+    "Application.lab1.executor": "Run",
+    "Application.lab1test2.executor": "Run",
+    "Application.lab1test3.executor": "Run",
+    "Application.lab1test4.executor": "Run",
+    "Application.lab1testE.executor": "Run",
+    "Application.lab1testF.executor": "Run",
+    "Application.random.executor": "Run",
+    "Application.testA.executor": "Run",
+    "Application.testB.executor": "Run",
+    "Application.testC.executor": "Run",
+    "Application.testC2_0.executor": "Run",
+    "Application.testC3_0.executor": "Run",
+    "Application.testC4_0.executor": "Run",
+    "Application.testD.executor": "Run",
+    "Application.testF.executor": "Run",
+    "Application.testF2_0.executor": "Run",
+    "Application.testF3_0.executor": "Run",
+    "Application.testF5_0.executor": "Run",
+    "Application.testF6_0.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.lab1test3.executor": "Run",
+    "应用程序.lab1testF.executor": "Run",
+    "应用程序.random.executor": "Run"
   }
-}</component>
-  <component name="RunManager" selected="Application.random">
+}]]></component>
+  <component name="RunManager" selected="Application.testC">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learningExperience.BinarySearch" />
       <module name="dsaa" />
@@ -143,14 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="random" type="Application" factoryName="Application" nameIsGenerated="true">
-      <output_file path="ba.txt" is_save="true" />
-      <option name="MAIN_CLASS_NAME" value="random" />
-      <module name="dsaa" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="testC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab2.testC" />
       <module name="dsaa" />
@@ -166,7 +161,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.random" />
       <item itemvalue="Application.testC" />
       <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.lab1testE" />
@@ -229,7 +223,12 @@
       <workItem from="1728803732688" duration="2264000" />
       <workItem from="1728807786568" duration="4120000" />
       <workItem from="1728812126570" duration="487000" />
-      <workItem from="1728834253739" duration="1506000" />
+      <workItem from="1728834253739" duration="3027000" />
+      <workItem from="1728838115544" duration="53000" />
+      <workItem from="1728838717331" duration="33000" />
+      <workItem from="1728905881124" duration="101000" />
+      <workItem from="1728905998833" duration="9099000" />
+      <workItem from="1728917638889" duration="89000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -407,7 +406,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728544663366</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Merge remote-tracking branch 'github/master'">
+      <option name="closed" value="true" />
+      <created>1728836550100</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1728836550100</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
