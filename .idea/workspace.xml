@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d7406fe-8521-4101-8ad4-b38ba9bee620" name="Changes" comment="Merge remote-tracking branch 'github/master'">
+    <list default="true" id="1d7406fe-8521-4101-8ad4-b38ba9bee620" name="Changes" comment="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
+      <change afterPath="$PROJECT_DIR$/src/lab2/findMinorMaxindexinazrray2_0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab2/testC6_0final.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab3/testC2_0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab3/testc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +65,7 @@
     &quot;Application.demo.executor&quot;: &quot;Run&quot;,
     &quot;Application.demo2.executor&quot;: &quot;Run&quot;,
     &quot;Application.demo3gpt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.findMinorMaxindexinazrray2_0.executor&quot;: &quot;Run&quot;,
     &quot;Application.lab1.executor&quot;: &quot;Run&quot;,
     &quot;Application.lab1test2.executor&quot;: &quot;Run&quot;,
     &quot;Application.lab1test3.executor&quot;: &quot;Run&quot;,
@@ -80,6 +85,7 @@
     &quot;Application.testF3_0.executor&quot;: &quot;Run&quot;,
     &quot;Application.testF5_0.executor&quot;: &quot;Run&quot;,
     &quot;Application.testF6_0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testc.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
@@ -222,7 +228,10 @@
       <workItem from="1728905998833" duration="9099000" />
       <workItem from="1728917638889" duration="705000" />
       <workItem from="1728918540093" duration="89000" />
-      <workItem from="1728918923447" duration="2518000" />
+      <workItem from="1728918923447" duration="2842000" />
+      <workItem from="1728989545514" duration="4867000" />
+      <workItem from="1728995466011" duration="586000" />
+      <workItem from="1729004605775" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -424,7 +433,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728922653211</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
+      <option name="closed" value="true" />
+      <created>1728922806984</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1728922806984</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
+      <option name="closed" value="true" />
+      <created>1728922864020</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1728922864020</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
+      <option name="closed" value="true" />
+      <created>1728922900849</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1728922900849</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +484,8 @@
     <MESSAGE value="5" />
     <MESSAGE value="6" />
     <MESSAGE value="Merge remote-tracking branch 'github/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'github/master'" />
+    <MESSAGE value="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
