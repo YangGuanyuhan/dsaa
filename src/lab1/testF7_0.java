@@ -1,4 +1,4 @@
-package lab2;
+package lab1;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.IOException;
 
-public class testF6_0 {
+public class testF7_0 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -43,25 +43,44 @@ public class testF6_0 {
     }
 
     private static int findMedian(int[] a, int[] b, int l, int r) {
-        int k = r - l + 1;
         int aleftIndex = l - 1;
+        int arightIndex = r - 1;
         int bleftIndex = l - 1;
+        int brightIndex = r - 1;
 
-
+        int k = r - l + 1;
         while (k > 1) {
-            int p = k / 2;  // 找到中间位置
-            int aMid = Math.min(aleftIndex + p, r) - 1;
-            int bMid = Math.min(bleftIndex + p, r) - 1;
+            int p = k / 2;
+
+            int aMid = aleftIndex + p - 1;
+            if (aMid > arightIndex) {
+                aMid = arightIndex;
+            }
+
+            int bMid = bleftIndex + p - 1;
+            if (bMid > brightIndex) {
+                bMid = brightIndex;
+            }
 
             if (a[aMid] <= b[bMid]) {
-                aleftIndex = aMid + 1;  // 舍弃 a 中的前半部分
+                aleftIndex = aMid + 1;
             } else {
-                bleftIndex = bMid + 1;  // 舍弃 b 中的前半部分
+                bleftIndex = bMid + 1;
             }
             k -= p;
+
+            if (arightIndex < aleftIndex) {
+                return b[bleftIndex+p-1];
+            } else if (brightIndex < bleftIndex) {
+                return a[aleftIndex+p-1];
+            }
         }
 
-        // 比较a和b剩下的最前面的元素，返回较小的那个
-        return Math.min(a[aleftIndex], b[bleftIndex]);
+        if (a[aleftIndex] <= b[bleftIndex]) {
+            return a[aleftIndex];
+        } else {
+            return b[bleftIndex];
+        }
     }
 }
+//dsaa so hard

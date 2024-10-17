@@ -1,6 +1,5 @@
-package lab2;
+package lab1;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class testF3_0 {

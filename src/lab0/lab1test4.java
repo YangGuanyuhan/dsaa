@@ -1,6 +1,5 @@
-package lab1;
+package lab0;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class lab1test4 {

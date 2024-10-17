@@ -1,6 +1,5 @@
-package lab3;
+package lab2;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class testc {

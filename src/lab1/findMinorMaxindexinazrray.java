@@ -1,4 +1,4 @@
-package lab2;
+package lab1;
 
 public class findMinorMaxindexinazrray {
     public static void main(String[] args) {

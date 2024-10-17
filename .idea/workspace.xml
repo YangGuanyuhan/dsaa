@@ -5,11 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7406fe-8521-4101-8ad4-b38ba9bee620" name="Changes" comment="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
-      <change afterPath="$PROJECT_DIR$/src/lab2/findMinorMaxindexinazrray2_0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/testC6_0final.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/testC2_0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/testc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoTest/nodeNexttest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab1/testA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab1/testB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab1/testC2_0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab2/testE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab2/testE2_0.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab1/lab1test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab0/lab1test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab1/lab1test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab0/lab1test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab1/lab1test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab0/lab1test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab1/lab1test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab0/lab1test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab1/lab1testE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab0/lab1testE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab1/lab1testF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab0/lab1testF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/demo3gpt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/demo3gpt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/examtestc2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/examtestc2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/findMinorMaxindexinazrray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/findMinorMaxindexinazrray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/findMinorMaxindexinazrray2_0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/findMinorMaxindexinazrray2_0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/testA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/testA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/testB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/testB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/testC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/testC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/testC2_0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/testC2_0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/testC3_0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/testC3_0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/testC4_0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/testC4_0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/testC5_0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/testC5_0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/testC6_0final.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/testC6_0final.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/testD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/testD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/testF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/testF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/testF2_0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/testF2_0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/testF3_0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/testF3_0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/testF5_0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/testF5_0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/testF6_0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/testF6_0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/testF7_0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/testF7_0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab3/testA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab3/testB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab3/testB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab3/testC2_0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab3/testc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/testc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,53 +89,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MonteCarloPi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.demo2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.demo3gpt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.findMinorMaxindexinazrray2_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1test2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1test3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1test4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1testE.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1testF.executor&quot;: &quot;Run&quot;,
-    &quot;Application.random.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testA.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testB.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testC.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testC2_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testC3_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testC4_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testD.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testF.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testF2_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testF3_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testF5_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testF6_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testc.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.lab1test3.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.lab1testF.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.random.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BinarySearch.executor": "Run",
+    "Application.MonteCarloPi.executor": "Run",
+    "Application.demo.executor": "Run",
+    "Application.demo2.executor": "Run",
+    "Application.demo3gpt.executor": "Run",
+    "Application.findMinorMaxindexinazrray2_0.executor": "Run",
+    "Application.lab1.executor": "Run",
+    "Application.lab1test2.executor": "Run",
+    "Application.lab1test3.executor": "Run",
+    "Application.lab1test4.executor": "Run",
+    "Application.lab1testE.executor": "Run",
+    "Application.lab1testF.executor": "Run",
+    "Application.nodeNexttest.executor": "Debug",
+    "Application.random.executor": "Run",
+    "Application.testA.executor": "Run",
+    "Application.testB.executor": "Run",
+    "Application.testC.executor": "Run",
+    "Application.testC2_0.executor": "Run",
+    "Application.testC3_0.executor": "Run",
+    "Application.testC4_0.executor": "Run",
+    "Application.testD.executor": "Run",
+    "Application.testE.executor": "Run",
+    "Application.testE2_0.executor": "Run",
+    "Application.testF.executor": "Run",
+    "Application.testF2_0.executor": "Run",
+    "Application.testF3_0.executor": "Run",
+    "Application.testF5_0.executor": "Run",
+    "Application.testF6_0.executor": "Run",
+    "Application.testc.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/15235/IdeaProjects/dsaa/src/lab2/testE2_0.java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "two.files.diff.last.used.file": "C:/Users/15235/IdeaProjects/dsaa/src/lab2/testE2_0.java",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.lab1test3.executor": "Run",
+    "应用程序.lab1testF.executor": "Run",
+    "应用程序.random.executor": "Run"
   }
-}</component>
-  <component name="RunManager" selected="Application.testC">
+}]]></component>
+  <component name="RunManager">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learningExperience.BinarySearch" />
       <module name="dsaa" />
@@ -118,12 +155,12 @@
       </method>
     </configuration>
     <configuration name="lab1testE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab1.lab1testE" />
+      <option name="MAIN_CLASS_NAME" value="lab0.lab1testE" />
       <module name="dsaa" />
       <option name="INPUT_FILE" value="$PROJECT_DIR$/src/lab1/tset.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab1.*" />
+          <option name="PATTERN" value="lab0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +169,11 @@
       </method>
     </configuration>
     <configuration name="lab1testF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab1.lab1testF" />
+      <option name="MAIN_CLASS_NAME" value="lab0.lab1testF" />
       <module name="dsaa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab1.*" />
+          <option name="PATTERN" value="lab0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +182,12 @@
       </method>
     </configuration>
     <configuration name="testC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab2.testC" />
+      <option name="MAIN_CLASS_NAME" value="lab1.testC" />
       <module name="dsaa" />
       <option name="INPUT_FILE" value="$PROJECT_DIR$/src/lab2/examtestc.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab2.*" />
+          <option name="PATTERN" value="lab1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,7 +268,12 @@
       <workItem from="1728918923447" duration="2842000" />
       <workItem from="1728989545514" duration="4867000" />
       <workItem from="1728995466011" duration="586000" />
-      <workItem from="1729004605775" duration="613000" />
+      <workItem from="1729004605775" duration="696000" />
+      <workItem from="1729037610218" duration="827000" />
+      <workItem from="1729047240101" duration="189000" />
+      <workItem from="1729047445391" duration="3445000" />
+      <workItem from="1729148708162" duration="245000" />
+      <workItem from="1729148968233" duration="4562000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -457,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728922900849</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
+      <option name="closed" value="true" />
+      <created>1729006527481</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1729006527481</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,6 +544,16 @@
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/demoTest/nodeNexttest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/demoTest/nodeNexttest.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
