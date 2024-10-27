@@ -1,8 +1,5 @@
 package lab3;
 
-import org.w3c.dom.Node;
-
-import javax.imageio.metadata.IIOMetadataFormatImpl;
 import java.util.Scanner;
 
 public class testB {
@@ -11,14 +8,14 @@ public class testB {
         int t = in.nextInt();
         for (int i = 0; i < t; i++) {
             int n = in.nextInt();
-            node nodhead = new node(0, -1);
-            node current = nodhead;
+            polynominalnode nodhead = new polynominalnode(0, -1);
+            polynominalnode current = nodhead;
             for (int j = 0; j < n; j++) {
-                node temp = new node(in.nextInt(), in.nextInt());
+                polynominalnode temp = new polynominalnode(in.nextInt(), in.nextInt());
                 current.next = temp;
                 current = current.next;
             }
-            node tail = new node(0, Integer.MAX_VALUE);
+            polynominalnode tail = new polynominalnode(0, Integer.MAX_VALUE);
             current.next = tail;
             current = nodhead;
             int m = in.nextInt();
@@ -31,7 +28,7 @@ public class testB {
                 if (current.expotential == exp) {
                     current.coeffient += coe;
                 } else {
-                    node temp = new node(coe, exp);
+                    polynominalnode temp = new polynominalnode(coe, exp);
                     temp.next = current.next;
                     current.next = temp;
                 }}
@@ -55,12 +52,12 @@ public class testB {
     }
 }
 
-class node {
+class polynominalnode {
     int coeffient;
     int expotential;
-    node next;//存储的地址值
+    polynominalnode next;//存储的地址值
 
-    public node(int coeffient, int expotential) {
+    public polynominalnode(int coeffient, int expotential) {
         this.coeffient = coeffient;
         this.expotential = expotential;
     }
