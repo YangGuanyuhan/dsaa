@@ -1,6 +1,8 @@
+package lab3;
+
 import java.util.Scanner;
 
-public class Main {
+public class D {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int T = in.nextInt();  // 测试用例数
@@ -47,27 +49,27 @@ public class Main {
 
     }
 }
-class node{
+class doublenode {
     char data;
-    node next;
-    node pre;
-    node(char data){
+    doublenode next;
+    doublenode pre;
+    doublenode(char data){
         this.data = data;
     }
 }
 class linkedlist{
-    node head;
-    node endOfLine;
-    node current;
+    doublenode head;
+    doublenode endOfLine;
+    doublenode current;
     linkedlist(){
-        head = new node('f');
-        endOfLine = new node('e');
+        head = new doublenode('f');
+        endOfLine = new doublenode('e');
         head.next = endOfLine;
         endOfLine.pre = head;
         current = head;
     }
     void add(char data){
-        node temp = new node(data);
+        doublenode temp = new doublenode(data);
         temp.next = current.next;
         temp.pre = current;
         current.next.pre = temp;
@@ -98,7 +100,7 @@ class linkedlist{
         current = head;
     }
     void print(){
-        node temp = head.next;
+        doublenode temp = head.next;
         while(temp != endOfLine){
             System.out.print(temp.data);
             temp = temp.next;

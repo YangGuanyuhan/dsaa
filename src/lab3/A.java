@@ -9,10 +9,10 @@ public class A {
         for (int i = 0; i < t; i++) {
             int n = in.nextInt();
             int k = in.nextInt();
-            node head = new node(1);
-            node current = head;
+            doublenode head = new doublenode(1);
+            doublenode current = head;
             for (int j = 2; j < n + 1; j++) {
-                node temp = new node(j);
+                doublenode temp = new doublenode(j);
                 current.setNext(temp);
                 current = current.getNext();
             }
@@ -42,7 +42,7 @@ public class A {
                     break;
 
                 }
-                node temp = current;
+                doublenode temp = current;
                 current = current.getNext();
                 System.out.print(current.getValue() + " ");
                 temp.setNext(current.getNext());
@@ -61,8 +61,8 @@ public class A {
     }
 
 
-    public static void print(node head) {
-        node current = head;
+    public static void print(doublenode head) {
+        doublenode current = head;
         while (current.getNext() != head) {
             System.out.print(current.getValue() + " ");
             current = current.getNext();
@@ -73,7 +73,7 @@ public class A {
 
 class node {
     private int value;  // 节点的值
-    private node next;  // 指向下一个节点的指针
+    private doublenode next;  // 指向下一个节点的指针
 
     // 构造函数
     public node(int value) {
@@ -87,12 +87,12 @@ class node {
     }
 
     // 获取下一个节点
-    public node getNext() {
+    public doublenode getNext() {
         return next;
     }
 
     // 设置下一个节点
-    public void setNext(node next) {
+    public void setNext(doublenode next) {
         this.next = next;
     }
 }
