@@ -1,108 +1,67 @@
+import javax.swing.*;
+import java.io.PushbackInputStream;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int T = in.nextInt();  // 测试用例数
-        for (int t = 0; t < T; t++) {
-            int n = in.nextInt();  // 当前输入的字符总数
-            String input = in.next();  // 读取整个输入字符串
-            linkedlist text = new linkedlist();
-            text.tohead();
-            boolean replace = false;
-            for (char ch : input.toCharArray()) {
-                switch (ch) {
-                    case 'I':
-                        text.tohead();  // 光标移到行首
-                        break;
-                    case 'H':
-                        text.previous();  // 左移光标
-                        break;
-                    case 'L':
-                        text.next();  // 右移光标
-                        break;
-                    case 'r':
-                        replace = true;  // 启用替换模式
-                        break;
-                    case 'x':
-                        text.remove();  // 删除当前字符
-                        break;
-                    default:
-                        if (Character.isDigit(ch)) {  // 数字输入处理
-                            if (replace) {
-                                text.remove();
-                                text.add(ch);  // 替换当前字符
-                                text.previous();
-                                replace = false;
-                            } else {
-                                text.add(ch);  // 插入字符
-                            }
-                        }
+        String input = in.next();  // 读取整个输入字符串
+        int a = input.length();
+        stack s = new stack();
+        int ans=0;
+        s.push(0);
+        for (char ch : input.toCharArray()) {
+            if (ch == '(') {
+                s.push(0);
+            } else {
+                if (s.top() == 0) {
+                   s.pop();
+                   int x = s.top();
+                    s.setTop(x + 1);
+                } else {
+                    int x = s.pop();
+                    int y = s.top();
+                    s.setTop(y+ x * 2);
+                    ans = s.top();
                 }
+
             }
 
-            // 输出结果，忽略尾部EOL
-            text.print();
         }
+        System.out.println(ans);
+    }
+}
 
-    }
-}
-class node{
-    char data;
-    node next;
-    node pre;
-    node(char data){
-        this.data = data;
-    }
-}
-class linkedlist{
-    node head;
-    node endOfLine;
-    node current;
-    linkedlist(){
-        head = new node('f');
-        endOfLine = new node('e');
-        head.next = endOfLine;
-        endOfLine.pre = head;
-        current = head;
-    }
-    void add(char data){
-        node temp = new node(data);
-        temp.next = current.next;
-        temp.pre = current;
-        current.next.pre = temp;
-        current.next = temp;
-        current = temp;
-    }
-    void remove(){
-        if(current.next != endOfLine){
-            current.next.next.pre = current.next.pre;
-            current.next.pre.next = current.next.next;
+class stack {
+    int[] data;
+    int top;
+
+    stack() {
+        data = new int[100010];
+        for (int i = 0; i < data.length; i++) {
+            data[i] = -1;
+
         }
+        top = -1;
     }
-    void previous(){
-        if(current != head){
-            current = current.pre;
-        }
+
+    void push(int x) {
+        data[++top] = x;
     }
-    void next(){
-        if(current.next != endOfLine){
-            current = current.next;
-        }
+
+    int pop() {
+        return data[top--];
     }
-    void set(char data){
-        if (current != head && current != endOfLine) current.data = data;
-        else add(data);
+
+    int top() {
+        return data[top];
     }
-    void tohead(){
-        current = head;
+
+    void setTop(int x) {
+        data[top] = x;
     }
-    void print(){
-        node temp = head.next;
-        while(temp != endOfLine){
-            System.out.print(temp.data);
-            temp = temp.next;
-        }
-        System.out.println();
+
+    boolean empty() {
+        return top == -1;
     }
 }
