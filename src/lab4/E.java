@@ -1,6 +1,8 @@
+package lab4;
+
 import java.util.Scanner;
 
-public class Main {
+public class E {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int T = in.nextInt(); // 读取测试用例数量
@@ -21,7 +23,7 @@ public class Main {
                     stackleft.push(new Node4E(heights[i], i+1));
                 } else {
                     while (!stackleft.isEmpty() && stackleft.peek().value <= heights[i]) {
-                       answer= stackleft.pop().index;
+                        answer= stackleft.pop().index;
                     }
                     stackleft.push(new Node4E(heights[i], i+1));
                 }

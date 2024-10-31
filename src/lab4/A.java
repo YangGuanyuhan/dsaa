@@ -21,7 +21,7 @@ public class A {
     }
 
     private static boolean bracketmatching(String str, int n) {
-        stack s = new stack(n);
+        stackA s = new stackA(n);
         for (int i = 0; i < n; i++) {
             if (str.charAt(i) == '(' || str.charAt(i) == '[' || str.charAt(i) == '{') {
                 s.push(str.charAt(i));
@@ -68,11 +68,11 @@ public class A {
 
 
 
-class stack {
+class stackA {
     int top;
     char[] a;
 
-    stack(int n) {
+    stackA(int n) {
         a = new char[n];
         top = 0;
     }
