@@ -1,6 +1,8 @@
+package lab4;
+
 import java.util.Scanner;
 
-public class Main {
+public class D {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int T = scanner.nextInt();  // 读取测试用例数量
@@ -37,13 +39,13 @@ public class Main {
                     poker.push(array[i]);
                     continue;
                 }else {
-                  if (array[i] > poker.peek()) {
-                    answer = poker.peek();
-                    poker.pop();
-                    i--;
-                  } else {
-                    poker.push(array[i]);
-                  }
+                    if (array[i] > poker.peek()) {
+                        answer = poker.peek();
+                        poker.pop();
+                        i--;
+                    } else {
+                        poker.push(array[i]);
+                    }
                 }
                 ans[ansIndex++] = answer;
             }
