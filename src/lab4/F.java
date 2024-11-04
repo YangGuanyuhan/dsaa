@@ -1,6 +1,8 @@
+package lab4;
+
 import java.util.Scanner;
 
-public class Main {
+public class F {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // 读取 k 和 n
@@ -62,7 +64,7 @@ public class Main {
                 while (mindeque.peekFront().index < left) {
                     mindeque.popFront();
                 }
-              if (maxdeque.peekBack().value - mindeque.peekFront().value <= k) {
+                if (maxdeque.peekBack().value - mindeque.peekFront().value <= k) {
                     ans = Math.max(ans, right - left);
                 }
 
