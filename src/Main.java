@@ -26,15 +26,16 @@ public class Main {
         //创建s1的hash值
         long[] hash1 = new long[s1.length() - ans + 1];
         hash1[0] = hash(s1.substring(0, ans));
+         long powerfactor = pow(139, ans - 1);
         for (int i = 1; i < s1.length() - ans + 1; i++) {
-            hash1[i] = (hash1[i - 1] - s1.charAt(i - 1) * pow(139, ans - 1)) + s1.charAt(i + ans - 1);
+            hash1[i] = (hash1[i - 1] - s1.charAt(i - 1) * powerfactor)*139 + s1.charAt(i + ans - 1);
         }
         mergeSort(hash1);
         //创建s2的哈希值
        long[] hash2 = new long[s2.length() - ans + 1];
         hash2[0] = hash(s2.substring(0, ans));
         for (int i = 1; i < s2.length() - ans + 1; i++) {
-            hash2[i] = (hash2[i - 1] - s2.charAt(i - 1) * pow(139, ans - 1)) + s2.charAt(i + ans - 1);
+            hash2[i] = (hash2[i - 1] - s2.charAt(i - 1) * powerfactor)*139 + s2.charAt(i + ans - 1);
         }
 
         //对于s2的hash值在hash1中二分查找
