@@ -1,19 +1,33 @@
 package lab5;
 
-
 import java.util.Scanner;
 
-public class B {
+public class D {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        int t = in.nextInt();
+        in.nextLine();
+        for (int i = 0; i < t; i++) {
+            String necklace = in.nextLine();
+            int n = necklace.length();
+            int ans = 0;
+            char[] lacearray = necklace.toCharArray();
+            int[] next = computeNext(necklace);
+            if (next[n - 1] == 0) {
+                ans = n;
 
-        // 读取输入
-        String pattern = in.next().trim();
-        int[] nextArray = computeNext(pattern);
-        for (int i = 0; i < nextArray.length; i++) {
-            System.out.println(nextArray[i]);
+            } else if (n % (n - next[n - 1]) == 0) {
+                ans = 0;
+
+            } else {
+                int temp = n % (n - next[n - 1]);
+                ans = n - next[n - 1] - temp;
+            }
+            System.out.println(ans);
 
         }
+
+
     }
 
     private static int[] computeNext(String pattern) {
