@@ -19,6 +19,7 @@ public class F {
                 result.append(cipherTable[ch - 'a']);
             }
         }
+       // System.out.println(result.toString());
         int n = S.length();
         int[] next = computeNext(result.toString());
 
