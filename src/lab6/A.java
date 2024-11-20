@@ -17,8 +17,8 @@ public class A {
                 layernodes *= k;
                 layer++;
             }
-            long opop = layernodes - left;
-            long ans = left + opop / k;
+            long lastlayersparenodes = layernodes - left;
+            long ans = left + lastlayersparenodes / k;
             System.out.println(ans);
         }
     }
