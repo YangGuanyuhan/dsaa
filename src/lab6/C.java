@@ -26,7 +26,6 @@ public class C {
         }
 
 
-
         //对树进行广度优先遍历，记录每一个节点到根节点的距离
         queue6c q = new queue6c(n + 10);
         q.enqueue(node[1]);
@@ -58,8 +57,33 @@ public class C {
 
         }
         System.out.println(ans);
+       /* // 打印树
+        System.out.println("Tree Structure:");
+        printTree(node[1], null, 0);*/
     }
 
+    // 打印树的方法
+    public static void printTree(node6c currentNode, node6c parentNode, int level) {
+        // 打印当前节点
+        for (int i = 0; i < level; i++) {
+            System.out.print("  "); // 缩进
+        }
+        System.out.print("Node " + currentNode.data);
+        if (parentNode != null) {
+            int weightIndex = currentNode.children.indexOf(parentNode);
+            System.out.print(" (Weight: " + currentNode.weight.get(weightIndex) + ")");
+        }
+        System.out.println();
+
+        // 递归打印子节点
+        for (int i = 0; i < currentNode.children.size(); i++) {
+            node6c child = currentNode.children.get(i);
+            if (child != parentNode) { // 防止重复打印回父节点
+                printTree(child, currentNode, level + 1);
+            }
+        }
+
+    }
 }
 
 
