@@ -5,166 +5,83 @@ public class Main {
         Scanner in = new Scanner(System.in);
         int t = in.nextInt();
         for (int i = 0; i < t; i++) {
-            int n = in.nextInt();
-            player7c[] players = new player7c[n];
-            for (int j = 0; j < n; j++) {
-                players[j] = new player7c(in.nextInt());
+            int n = in.nextInt(); // 节点数量
+            maxHeap7B heap = new maxHeap7B(n);
+            for (int j = 1; j <= n; j++) {
+                node7B temp = new node7B();
+                temp.index = j;  // 节点的原始索引
+                temp.value = in.nextInt(); // 节点的值
+                heap.insert(temp); // 插入堆中
             }
-            for (int j = 0; j < n; j++) {
-                players[j].time = in.nextInt();
-            }
-            mergeSort(players, 0, n - 1);
-            int time = players[0].time;
-            int power = 0;
-            int index = 0;
-            maxHeap7c heap = new maxHeap7c(n);
-            while (time > 0) {
-                // 插入所有time等于当前time的玩家
-                while (index < players.length && players[index].time == time) {
-                    heap.insert(players[index]);
-                    index++;
+            int target = in.nextInt(); // 目标节点的索引
+
+            // 查找目标节点在堆中的位置
+            int position = 0;
+            int levelX = 1;
+            int levelY = 0;
+
+            // 遍历堆找到目标节点
+            for (int j = 0; j < heap.size; j++) {
+                if (heap.heap[j + 1].index == target) {
+                    position = j + 1;
+
+                    // 计算层级 levelX
+                    while (position > 1) {
+                        position = position / 2;
+                        levelX++;
+                    }
+
+                    // 计算层内索引 levelY
+                    int nodesInPreviousLevels = (1 << (levelX - 1)) - 1; // 之前层级的节点总数
+                    levelY = (j + 1) - nodesInPreviousLevels; // 当前层级的索引
+
+                    System.out.println(levelX + " " + levelY);
+                    break;
                 }
-
-                // 如果堆中有玩家，则增加最大玩家的power
-                if (heap.size > 0) {
-                    player7c temp = heap.extractMax();
-                    power += temp.power;
-                }
-
-                // 递减时间
-                time--;
             }
-            System.out.println(power);
         }
-    }
-
-    //based on the time of the player, use mergesort the players in descending order
-    public static void mergeSort(player7c[] players, int l, int r) {
-        if (l < r) {
-            int m = (l + r) / 2;
-            mergeSort(players, l, m);
-            mergeSort(players, m + 1, r);
-            merge(players, l, m, r);
-        }
-    }
-
-    public static void merge(player7c[] players, int l, int m, int r) {
-        int n1 = m - l + 1;
-        int n2 = r - m;
-        player7c[] L = new player7c[n1];
-        player7c[] R = new player7c[n2];
-        for (int i = 0; i < n1; i++) {
-            L[i] = players[l + i];
-        }
-        for (int i = 0; i < n2; i++) {
-            R[i] = players[m + 1 + i];
-        }
-        int i = 0;
-        int j = 0;
-        int k = l;
-        while (i < n1 && j < n2) {
-            if (L[i].time > R[j].time) {
-                players[k] = L[i];
-                i++;
-            } else if (L[i].time == R[j].time) {
-                if (L[i].power > R[j].power) {
-                    players[k] = L[i];
-                    i++;
-                } else {
-                    players[k] = R[j];
-                    j++;
-                }
-            } else {
-                players[k] = R[j];
-                j++;
-            }
-            k++;
-        }
-        while (i < n1) {
-            players[k] = L[i];
-            i++;
-            k++;
-        }
-        while (j < n2) {
-            players[k] = R[j];
-            j++;
-            k++;
-        }
-    }
-
-}
-
-class player7c {
-    int power;
-    int time;
-
-    public player7c(int power) {
-        this.power = power;
     }
 }
 
-//maxHeap class based on the power of the player
-class maxHeap7c {
-    player7c[] heap;
+// 节点类
+class node7B {
+    int index;
+    int value;
+}
+
+// 最大堆类
+class maxHeap7B {
+    node7B[] heap;
     int size;
 
-    public maxHeap7c(int n) {
-        heap = new player7c[n + 1];
+    public maxHeap7B(int n) {
+        heap = new node7B[n + 1]; // 使用1-based索引
         size = 0;
     }
 
-    public void insert(player7c n) {
+    public void insert(node7B n) {
         size++;
-        heap[size] = n;
-        shiftUp(size);
-
+        heap[size] = n; // 插入节点
+        shiftUp(size);  // 调整堆
     }
-
-    public player7c extractMax() {
-        player7c result = heap[1];
-        heap[1] = heap[size];
-        size--;
-        shiftDown(1);
-        return result;
-    }
-
 
     public void shiftUp(int pointer) {
-        while (pointer > 1 && heap[pointer].power > heap[pointer / 2].power) {
-            swap(pointer, pointer / 2);
-            pointer = pointer / 2;
-        }
-
-    }
-
-    public void shiftDown(int pointer) {
-        while (2 * pointer <= size) {
-            int maxIndex = pointer;
-            if (2 * pointer <= size && heap[2 * pointer].power > heap[maxIndex].power) {
-                maxIndex = 2 * pointer;
-            }
-            if (2 * pointer + 1 <= size && heap[2 * pointer + 1].power > heap[maxIndex].power) {
-                maxIndex = 2 * pointer + 1;
-            }
-            if (pointer != maxIndex) {
-                swap(pointer, maxIndex);
-                pointer = maxIndex;
-            } else {
-                break;
-            }
+        while (pointer > 1 && heap[pointer].value > heap[pointer / 2].value) {
+            swap(pointer, pointer / 2); // 如果父节点小于当前节点，交换
+            pointer = pointer / 2; // 更新指针
         }
     }
 
     public void swap(int a, int b) {
-        player7c temp = heap[a];
+        node7B temp = heap[a];
         heap[a] = heap[b];
         heap[b] = temp;
     }
 
-    //print the heap
+    // 打印堆的值（调试用）
     public void print() {
         for (int i = 1; i <= size; i++) {
-            System.out.print(heap[i].power + " ");
+            System.out.print(heap[i].value + " ");
         }
         System.out.println();
     }
