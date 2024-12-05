@@ -1,8 +1,9 @@
+package lab7;
 
 
 import java.util.Scanner;
 
-public class Main {
+public class E {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
@@ -67,12 +68,13 @@ public class Main {
 
 
     }
+
     //打印链表
     public static void print(Node7E head) {
         System.out.println("linkedlist ");
         Node7E current = head;
         while (current != null) {
-            System.out.print(current.data+" ");
+            System.out.print(current.data + " ");
             current = current.next;
         }
     }
@@ -221,5 +223,6 @@ class MinHeap7E {
         }
     }
 }
+
 
 
