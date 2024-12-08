@@ -139,22 +139,35 @@ class maxHeap7c {
 
     }
 
-    public void shiftDown(int pointer) {
-        while (2 * pointer <= size) {
-            int maxIndex = pointer;
-            if (2 * pointer <= size && heap[2 * pointer].power > heap[maxIndex].power) {
-                maxIndex = 2 * pointer;
-            }
-            if (2 * pointer + 1 <= size && heap[2 * pointer + 1].power > heap[maxIndex].power) {
-                maxIndex = 2 * pointer + 1;
-            }
-            if (pointer != maxIndex) {
-                swap(pointer, maxIndex);
-                pointer = maxIndex;
+    private void shiftDown(int i) {
+        if (2 * i <= size && 2 * i + 1 <= size) {
+            if (heap[2 * i].power >= heap[2 * i + 1].power) {
+                if (heap[2 * i].power > heap[i].power) {
+                    swap(i, 2 * i);
+                    shiftDown(2 * i);
+                } else {
+                    return;
+                }
             } else {
-                break;
+                if (heap[2 * i + 1].power > heap[i].power) {
+                    swap(i, 2 * i + 1);
+                    shiftDown(2 * i + 1);
+                } else {
+                    return;
+                }
             }
+        } else if (2 * i <= size) {
+            if (heap[2 * i]. power> heap[i].power) {
+                swap(i, 2 * i);
+                shiftDown(2 * i);
+            } else {
+                return;
+            }
+
+        } else {
+            return;
         }
+
     }
 
     public void swap(int a, int b) {
