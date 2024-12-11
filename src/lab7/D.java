@@ -1,6 +1,8 @@
+package lab7;
+
 import java.util.Scanner;
 
-public class Main {
+public class D {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         long t = in.nextLong(); // 修改为long类型
