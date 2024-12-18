@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7406fe-8521-4101-8ad4-b38ba9bee620" name="Changes" comment="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
-      <change afterPath="$PROJECT_DIR$/src/learningExperience/demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningExperience/read.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +123,7 @@
     &quot;应用程序.random.executor&quot;: &quot;Run&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.testC">
+  <component name="RunManager">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learningExperience.BinarySearch" />
       <module name="dsaa" />
@@ -314,23 +312,8 @@
       <workItem from="1733639329029" duration="2863000" />
       <workItem from="1733660351411" duration="1945000" />
       <workItem from="1733884805714" duration="5038000" />
-      <workItem from="1733892875630" duration="540000" />
-    </task>
-    <task id="LOCAL-00007" summary="4">
-      <option name="closed" value="true" />
-      <created>1726628283854</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1726628283854</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <option name="closed" value="true" />
-      <created>1726633006420</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1726633006420</updated>
+      <workItem from="1733892875630" duration="739000" />
+      <workItem from="1734488166295" duration="3894000" />
     </task>
     <task id="LOCAL-00009" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -708,7 +691,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733661702839</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
+      <option name="closed" value="true" />
+      <created>1733893583687</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1733893583687</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
+      <option name="closed" value="true" />
+      <created>1733893606063</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1733893606063</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
