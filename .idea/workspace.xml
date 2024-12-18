@@ -314,14 +314,7 @@
       <workItem from="1733884805714" duration="5038000" />
       <workItem from="1733892875630" duration="739000" />
       <workItem from="1734488166295" duration="3894000" />
-    </task>
-    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <option name="closed" value="true" />
-      <created>1726633026903</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1726633026903</updated>
+      <workItem from="1734515063906" duration="309000" />
     </task>
     <task id="LOCAL-00010" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -707,7 +700,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733893606063</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
+      <option name="closed" value="true" />
+      <created>1734515151853</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1734515151853</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
