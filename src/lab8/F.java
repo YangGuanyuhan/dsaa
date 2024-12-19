@@ -1,7 +1,9 @@
+package lab8;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class F {
     public static void main(String[] args) {
         final int mod = 1000000007;
         Scanner in = new Scanner(System.in);
