@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7406fe-8521-4101-8ad4-b38ba9bee620" name="Changes" comment="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
+      <change afterPath="$PROJECT_DIR$/src/lab8/E.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab8/F.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab8/F.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,75 +56,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.A.executor&quot;: &quot;Run&quot;,
-    &quot;Application.B.executor&quot;: &quot;Run&quot;,
-    &quot;Application.B2_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E3_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.F.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MonteCarloPi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestCaseGenerator.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.demo2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.demo3gpt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.findMinorMaxindexinazrray2_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1test2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1test3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1test4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1testE.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lab1testF.executor&quot;: &quot;Run&quot;,
-    &quot;Application.map.executor&quot;: &quot;Run&quot;,
-    &quot;Application.maxheaptest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.maxheaptestdemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.maxheaptestdemostandard.executor&quot;: &quot;Run&quot;,
-    &quot;Application.nodeNexttest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.nodetst.executor&quot;: &quot;Run&quot;,
-    &quot;Application.random.executor&quot;: &quot;Run&quot;,
-    &quot;Application.read.executor&quot;: &quot;Run&quot;,
-    &quot;Application.test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testA.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testB.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testC.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testC2_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testC3_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testC4_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testD.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testE.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testE2_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testF.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testF2_0.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.testF3_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testF5_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testF6_0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testc.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/15235/IdeaProjects/dsaa/src/lab2/testF2_0.java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/15235/IdeaProjects/dsaa/src/lab2/testF2_0.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.lab1test3.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.lab1testF.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.random.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.A.executor": "Run",
+    "Application.B.executor": "Run",
+    "Application.B2_0.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.C.executor": "Run",
+    "Application.D.executor": "Run",
+    "Application.E.executor": "Run",
+    "Application.E3_0.executor": "Run",
+    "Application.F.executor": "Run",
+    "Application.Main.executor": "Debug",
+    "Application.Main2.executor": "Run",
+    "Application.MonteCarloPi.executor": "Run",
+    "Application.TestCaseGenerator.executor": "Debug",
+    "Application.demo.executor": "Run",
+    "Application.demo2.executor": "Run",
+    "Application.demo3gpt.executor": "Run",
+    "Application.findMinorMaxindexinazrray2_0.executor": "Run",
+    "Application.lab1.executor": "Run",
+    "Application.lab1test2.executor": "Run",
+    "Application.lab1test3.executor": "Run",
+    "Application.lab1test4.executor": "Run",
+    "Application.lab1testE.executor": "Run",
+    "Application.lab1testF.executor": "Run",
+    "Application.map.executor": "Run",
+    "Application.maxheaptest.executor": "Run",
+    "Application.maxheaptestdemo.executor": "Run",
+    "Application.maxheaptestdemostandard.executor": "Run",
+    "Application.nodeNexttest.executor": "Debug",
+    "Application.nodetst.executor": "Run",
+    "Application.random.executor": "Run",
+    "Application.read.executor": "Run",
+    "Application.test.executor": "Run",
+    "Application.testA.executor": "Run",
+    "Application.testB.executor": "Run",
+    "Application.testC.executor": "Run",
+    "Application.testC2_0.executor": "Run",
+    "Application.testC3_0.executor": "Run",
+    "Application.testC4_0.executor": "Run",
+    "Application.testD.executor": "Run",
+    "Application.testE.executor": "Run",
+    "Application.testE2_0.executor": "Run",
+    "Application.testF.executor": "Run",
+    "Application.testF2_0.executor": "Debug",
+    "Application.testF3_0.executor": "Run",
+    "Application.testF5_0.executor": "Run",
+    "Application.testF6_0.executor": "Run",
+    "Application.testc.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/15235/IdeaProjects/dsaa/src/lab2/testF2_0.java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
+    "two.files.diff.last.used.file": "C:/Users/15235/IdeaProjects/dsaa/src/lab2/testF2_0.java",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.lab1test3.executor": "Run",
+    "应用程序.lab1testF.executor": "Run",
+    "应用程序.random.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learningExperience.BinarySearch" />
@@ -314,23 +316,10 @@
       <workItem from="1733884805714" duration="5038000" />
       <workItem from="1733892875630" duration="739000" />
       <workItem from="1734488166295" duration="3894000" />
-      <workItem from="1734515063906" duration="309000" />
-    </task>
-    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <option name="closed" value="true" />
-      <created>1726670299152</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1726670299153</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <option name="closed" value="true" />
-      <created>1726670321924</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1726670321924</updated>
+      <workItem from="1734515063906" duration="423000" />
+      <workItem from="1734535185623" duration="2762000" />
+      <workItem from="1734584130375" duration="5323000" />
+      <workItem from="1734590269038" duration="7645000" />
     </task>
     <task id="LOCAL-00012" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -708,7 +697,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734515151853</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
+      <option name="closed" value="true" />
+      <created>1734515481724</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1734515481724</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
+      <option name="closed" value="true" />
+      <created>1734590330432</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1734590330434</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

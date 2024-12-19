@@ -1,6 +1,8 @@
+package lab8;
+
 import java.util.Scanner;
 
-public class Main {
+public class E {
     public static int sum = 0;
     public static int historySum = 0;
 

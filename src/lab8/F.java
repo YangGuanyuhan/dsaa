@@ -12,11 +12,11 @@ public class F {
             int n = in.nextInt(); // 节点数量
             int m = in.nextInt(); // 边的数量
             // 初始化n个node
-            node[] nodes = new node[n + 1];
+            node8f[] nodes = new node8f[n + 1];
             //初始化函数f
             int[] function = new int[n + 1];
             for (int j = 1; j <= n; j++) {
-                nodes[j] = new node(j, in.nextInt(), in.nextInt());
+                nodes[j] = new node8f(j, in.nextInt(), in.nextInt());
             }
             for (int j = 0; j < m; j++) {
                 int u = in.nextInt();
@@ -25,7 +25,7 @@ public class F {
                 nodes[v].addParent(nodes[u]);
                 nodes[v].in_degree++;
             }
-            queue q = new queue(n + 10);
+            queue8F q = new queue8F(n + 10);
             for (int j = 1; j <= n; j++) {
                 if (nodes[j].in_degree == 0) {
                     q.enqueue(nodes[j]);
@@ -34,8 +34,8 @@ public class F {
             }
 
             while (!q.isEmpty()) {
-                node current = q.dequeue();
-                for (node child : current.children) {
+                node8f current = q.dequeue();
+                for (node8f child : current.children) {
                     child.in_degree--;
                     function[child.id] += ((function[current.id] + current.a)%mod);
                     function[child.id]%=mod;
@@ -55,16 +55,16 @@ public class F {
         }
     }
 
-    public static void topological_sort(node[] nodes) {
-        queue q = new queue(1000);
-        for (node n : nodes) {
+    public static void topological_sort(node8f[] nodes) {
+        queue8F q = new queue8F(1000);
+        for (node8f n : nodes) {
             if (n.in_degree == 0) {
                 q.enqueue(n);
             }
         }
         while (!q.isEmpty()) {
-            node current = q.dequeue();
-            for (node child : current.children) {
+            node8f current = q.dequeue();
+            for (node8f child : current.children) {
                 child.in_degree--;
                 if (child.in_degree == 0) {
                     q.enqueue(child);
@@ -73,13 +73,13 @@ public class F {
         }
     }
 
-    public static void bfs(node source) {
-        queue q = new queue(1000);
+    public static void bfs(node8f source) {
+        queue8F q = new queue8F(1000);
         q.enqueue(source);
         source.visited = true;
         while (!q.isEmpty()) {
-            node current = q.dequeue();
-            for (node child : current.children) {
+            node8f current = q.dequeue();
+            for (node8f child : current.children) {
                 if (!child.visited) {
                     q.enqueue(child);
                     child.visited = true;
@@ -89,9 +89,9 @@ public class F {
         }
     }
 
-    public static void dfs(node current) {
+    public static void dfs(node8f current) {
         current.visited = true;
-        for (node child : current.children) {
+        for (node8f child : current.children) {
             if (!child.visited) {
                 dfs(child);
             }
@@ -99,7 +99,7 @@ public class F {
     }
 }
 
-class node {
+class node8f {
     int id;
     int path;
     int a;
@@ -108,7 +108,7 @@ class node {
     int in_degree;
     boolean visited;
 
-    node(int id, int a, int b) {
+    node8f(int id, int a, int b) {
         this.id = id;
         this.a = a;
         this.b = b;
@@ -118,36 +118,36 @@ class node {
     }
 
 
-    ArrayList<node> children = new ArrayList<>();
-    ArrayList<node> parents = new ArrayList<>();
+    ArrayList<node8f> children = new ArrayList<>();
+    ArrayList<node8f> parents = new ArrayList<>();
 
-    void addChild(node child) {
+    void addChild(node8f child) {
         children.add(child);
     }
 
-    void addParent(node parent) {
+    void addParent(node8f parent) {
         parents.add(parent);
     }
 }
 
-class queue {
-    node[] data;
+class queue8F {
+    node8f[] data;
     int head;
     int tail;
 
-    queue(int n) {
-        data = new node[n];
+    queue8F(int n) {
+        data = new node8f[n];
         head = 0;
         tail = 0;
     }
 
-    void enqueue(node x) {
+    void enqueue(node8f x) {
         data[tail] = x;
         tail++;
     }
 
-    node dequeue() {
-        node x = data[head];
+    node8f dequeue() {
+        node8f x = data[head];
         head++;
         return x;
     }
