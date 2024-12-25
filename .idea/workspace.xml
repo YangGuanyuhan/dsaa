@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7406fe-8521-4101-8ad4-b38ba9bee620" name="Changes" comment="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
-      <change afterPath="$PROJECT_DIR$/src/lab8/E.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab8/F.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab8/F.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,15 +58,19 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.A.executor": "Run",
+    "Application.AVLTree.executor": "Run",
+    "Application.AVLtree.executor": "Run",
+    "Application.AVLtreetest.executor": "Run",
     "Application.B.executor": "Run",
     "Application.B2_0.executor": "Run",
+    "Application.BSTTest.executor": "Run",
     "Application.BinarySearch.executor": "Run",
     "Application.C.executor": "Run",
     "Application.D.executor": "Run",
     "Application.E.executor": "Run",
     "Application.E3_0.executor": "Run",
     "Application.F.executor": "Run",
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
     "Application.MonteCarloPi.executor": "Run",
     "Application.TestCaseGenerator.executor": "Debug",
@@ -117,7 +119,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "two.files.diff.last.used.file": "C:/Users/15235/IdeaProjects/dsaa/src/lab2/testF2_0.java",
     "vue.rearranger.settings.migration": "true",
     "应用程序.lab1test3.executor": "Run",
@@ -126,8 +131,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learningExperience.BinarySearch" />
+    <configuration name="AVLTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learningExperience.AVLTree" />
       <module name="dsaa" />
       <extension name="coverage">
         <pattern>
@@ -139,13 +144,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab1testE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab0.lab1testE" />
+    <configuration name="AVLtree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learningExperience.AVLtree" />
       <module name="dsaa" />
-      <option name="INPUT_FILE" value="$PROJECT_DIR$/src/lab1/tset.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab0.*" />
+          <option name="PATTERN" value="learningExperience.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learningExperience.BinarySearch" />
+      <module name="dsaa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learningExperience.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,13 +198,16 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.AVLTree" />
+      <item itemvalue="Application.AVLtree" />
       <item itemvalue="Application.testC" />
       <item itemvalue="Application.BinarySearch" />
-      <item itemvalue="Application.lab1testE" />
       <item itemvalue="Application.lab1testF" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AVLtree" />
+        <item itemvalue="Application.AVLTree" />
         <item itemvalue="Application.testC" />
         <item itemvalue="Application.BinarySearch" />
       </list>
@@ -319,31 +339,26 @@
       <workItem from="1734515063906" duration="423000" />
       <workItem from="1734535185623" duration="2762000" />
       <workItem from="1734584130375" duration="5323000" />
-      <workItem from="1734590269038" duration="7645000" />
-    </task>
-    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <option name="closed" value="true" />
-      <created>1726670405653</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1726670405653</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'github/master'">
-      <option name="closed" value="true" />
-      <created>1726979624981</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1726979624981</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'github/master'">
-      <option name="closed" value="true" />
-      <created>1726979926509</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1726979926509</updated>
+      <workItem from="1734590269038" duration="8227000" />
+      <workItem from="1734600287582" duration="119000" />
+      <workItem from="1734701600679" duration="537000" />
+      <workItem from="1734851386034" duration="34000" />
+      <workItem from="1734938367578" duration="28000" />
+      <workItem from="1734939744002" duration="989000" />
+      <workItem from="1734955040812" duration="12000" />
+      <workItem from="1734955069423" duration="22000" />
+      <workItem from="1734955393579" duration="66000" />
+      <workItem from="1734955802891" duration="67000" />
+      <workItem from="1734956196552" duration="41000" />
+      <workItem from="1734956655554" duration="14000" />
+      <workItem from="1734970107161" duration="608000" />
+      <workItem from="1734970779435" duration="77000" />
+      <workItem from="1735024452398" duration="765000" />
+      <workItem from="1735026031021" duration="125000" />
+      <workItem from="1735043513772" duration="2393000" />
+      <workItem from="1735045985578" duration="122000" />
+      <workItem from="1735095604875" duration="3400000" />
+      <workItem from="1735141371470" duration="3682000" />
     </task>
     <task id="LOCAL-00015" summary="Merge remote-tracking branch 'github/master'">
       <option name="closed" value="true" />
@@ -713,7 +728,31 @@
       <option name="project" value="LOCAL" />
       <updated>1734590330434</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
+      <option name="closed" value="true" />
+      <created>1734599843135</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1734599843135</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
+      <option name="closed" value="true" />
+      <created>1735025216622</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1735025216623</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
+      <option name="closed" value="true" />
+      <created>1735045772566</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1735045772566</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
