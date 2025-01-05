@@ -1,7 +1,9 @@
+package lab9;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class B {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         long n = in.nextLong();
@@ -139,3 +141,4 @@ class minHeap9B {
         return result;
     }
 }
+

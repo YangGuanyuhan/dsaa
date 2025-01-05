@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7406fe-8521-4101-8ad4-b38ba9bee620" name="Changes" comment="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
+      <change afterPath="$PROJECT_DIR$/src/lab9/E.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab9/F.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -54,83 +56,83 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.A.executor": "Run",
-    "Application.AVLTree.executor": "Run",
-    "Application.AVLtree.executor": "Run",
-    "Application.AVLtreetest.executor": "Run",
-    "Application.B.executor": "Run",
-    "Application.B2_0.executor": "Run",
-    "Application.BSTTest.executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.C.executor": "Run",
-    "Application.D.executor": "Run",
-    "Application.E.executor": "Run",
-    "Application.E3_0.executor": "Run",
-    "Application.F.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Main2.executor": "Run",
-    "Application.MonteCarloPi.executor": "Run",
-    "Application.TestCaseGenerator.executor": "Debug",
-    "Application.demo.executor": "Run",
-    "Application.demo2.executor": "Run",
-    "Application.demo3gpt.executor": "Run",
-    "Application.findMinorMaxindexinazrray2_0.executor": "Run",
-    "Application.lab1.executor": "Run",
-    "Application.lab1test2.executor": "Run",
-    "Application.lab1test3.executor": "Run",
-    "Application.lab1test4.executor": "Run",
-    "Application.lab1testE.executor": "Run",
-    "Application.lab1testF.executor": "Run",
-    "Application.map.executor": "Run",
-    "Application.maxheaptest.executor": "Run",
-    "Application.maxheaptestdemo.executor": "Run",
-    "Application.maxheaptestdemostandard.executor": "Run",
-    "Application.nodeNexttest.executor": "Debug",
-    "Application.nodetst.executor": "Run",
-    "Application.random.executor": "Run",
-    "Application.read.executor": "Run",
-    "Application.test.executor": "Run",
-    "Application.testA.executor": "Run",
-    "Application.testB.executor": "Run",
-    "Application.testC.executor": "Run",
-    "Application.testC2_0.executor": "Run",
-    "Application.testC3_0.executor": "Run",
-    "Application.testC4_0.executor": "Run",
-    "Application.testD.executor": "Run",
-    "Application.testE.executor": "Run",
-    "Application.testE2_0.executor": "Run",
-    "Application.testF.executor": "Run",
-    "Application.testF2_0.executor": "Debug",
-    "Application.testF3_0.executor": "Run",
-    "Application.testF5_0.executor": "Run",
-    "Application.testF6_0.executor": "Run",
-    "Application.testc.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/15235/IdeaProjects/dsaa/src/lab2/testF2_0.java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "two.files.diff.last.used.file": "C:/Users/15235/IdeaProjects/dsaa/src/lab2/testF2_0.java",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.lab1test3.executor": "Run",
-    "应用程序.lab1testF.executor": "Run",
-    "应用程序.random.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AVLTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AVLtree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AVLtreetest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.B.executor&quot;: &quot;Run&quot;,
+    &quot;Application.B2_0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BSTTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D.executor&quot;: &quot;Run&quot;,
+    &quot;Application.E.executor&quot;: &quot;Run&quot;,
+    &quot;Application.E3_0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.F.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MonteCarloPi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCaseGenerator.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo3gpt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.findMinorMaxindexinazrray2_0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lab1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lab1test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lab1test3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lab1test4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lab1testE.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lab1testF.executor&quot;: &quot;Run&quot;,
+    &quot;Application.map.executor&quot;: &quot;Run&quot;,
+    &quot;Application.maxheaptest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.maxheaptestdemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.maxheaptestdemostandard.executor&quot;: &quot;Run&quot;,
+    &quot;Application.nodeNexttest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.nodetst.executor&quot;: &quot;Run&quot;,
+    &quot;Application.random.executor&quot;: &quot;Run&quot;,
+    &quot;Application.read.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testA.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testC.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testC2_0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testC3_0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testC4_0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testD.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testE.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testE2_0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testF.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testF2_0.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.testF3_0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testF5_0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testF6_0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testc.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/15235/IdeaProjects/databaseproject2final&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/15235/IdeaProjects/dsaa/src/lab2/testF2_0.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.lab1test3.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.lab1testF.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.random.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.AVLTree">
     <configuration name="AVLTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learningExperience.AVLTree" />
       <module name="dsaa" />
@@ -358,15 +360,19 @@
       <workItem from="1735043513772" duration="2393000" />
       <workItem from="1735045985578" duration="122000" />
       <workItem from="1735095604875" duration="3400000" />
-      <workItem from="1735141371470" duration="3682000" />
-    </task>
-    <task id="LOCAL-00015" summary="Merge remote-tracking branch 'github/master'">
-      <option name="closed" value="true" />
-      <created>1726980313998</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1726980313998</updated>
+      <workItem from="1735141371470" duration="3993000" />
+      <workItem from="1735175436180" duration="248000" />
+      <workItem from="1735175704261" duration="655000" />
+      <workItem from="1735189101355" duration="14966000" />
+      <workItem from="1735474668493" duration="22000" />
+      <workItem from="1735832779230" duration="1565000" />
+      <workItem from="1735909008536" duration="1168000" />
+      <workItem from="1736000969755" duration="611000" />
+      <workItem from="1736001595916" duration="146000" />
+      <workItem from="1736001778773" duration="8180000" />
+      <workItem from="1736045042615" duration="478000" />
+      <workItem from="1736045588472" duration="302000" />
+      <workItem from="1736045986262" duration="1996000" />
     </task>
     <task id="LOCAL-00016" summary="Merge remote-tracking branch 'github/master'">
       <option name="closed" value="true" />
@@ -752,7 +758,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735045772566</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/lab2/testF5_0.java&#10;#&#9;src/lab2/testF6_0.java">
+      <option name="closed" value="true" />
+      <created>1735145445624</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1735145445624</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -788,6 +802,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="5" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/demoTest/nodeNexttest.java</url>
