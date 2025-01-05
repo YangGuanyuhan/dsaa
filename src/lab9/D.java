@@ -1,7 +1,9 @@
+package lab9;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class D {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();//节点数
@@ -46,7 +48,7 @@ public class Main {
             }
             for (int j = 1; j <= n; j++) {
                 nodes[j].color[i] = nodes[j].path;
-               // System.out.print(nodes[j].color[i] + " ");
+                // System.out.print(nodes[j].color[i] + " ");
             }
             //System.out.println();
 
