@@ -1,0 +1,200 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <immintrin.h> // AVX2 intrinsics
+#include <omp.h>       // OpenMP support
+
+#define VECTOR_SIZE 15000000
+#define ALIGNMENT 32 // For 256-bit AVX2
+
+void initializeVector(float *vector, int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        vector[i] = (float)i;
+    }
+}
+
+void displayPartialVector(const char *name, float *vector, int size)
+{
+    printf("%s (first 10 elements): ", name);
+    for (int i = 0; i < 10 && i < size; i++)
+    {
+        printf("%.1f ", vector[i]);
+    }
+    printf("...\n");
+}
+
+void addVectorsStandard(float *vector1, float *vector2, float *result, int size)
+{
+    clock_t start = clock();
+
+    for (int i = 0; i < size; i++)
+    {
+        result[i] = vector1[i] + vector2[i];
+    }
+
+    clock_t end = clock();
+    double time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
+
+    printf("Vector addition using standard C:\n");
+    printf("Calculation time: %f seconds\n", time_used);
+}
+
+void addVectorsAVX2(float *vector1, float *vector2, float *result, int size)
+{
+    clock_t start = clock();
+
+    // Each __m256 register can hold 8 floats (256 bits / 32 bits)
+    int simdSize = size - (size % 8); // ensure we process in multiples of 8
+
+    int i = 0;
+    // Process 8 floats at a time using AVX2
+    for (; i < simdSize; i += 8)
+    {
+        __m256 v1 = _mm256_loadu_ps(&vector1[i]);
+        __m256 v2 = _mm256_loadu_ps(&vector2[i]);
+        __m256 res = _mm256_add_ps(v1, v2);
+        _mm256_storeu_ps(&result[i], res);
+    }
+
+    // Handle remaining elements
+    for (; i < size; i++)
+    {
+        result[i] = vector1[i] + vector2[i];
+    }
+
+    clock_t end = clock();
+    double time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
+
+    printf("Vector addition using AVX2 SIMD:\n");
+    printf("Calculation time: %f seconds\n", time_used);
+}
+
+void addVectorsOpenMP(float *vector1, float *vector2, float *result, int size)
+{
+    double start = omp_get_wtime();
+
+#pragma omp parallel for
+    for (int i = 0; i < size; i++)
+    {
+        result[i] = vector1[i] + vector2[i];
+    }
+
+    double end = omp_get_wtime();
+    double time_used = end - start;
+
+    printf("Vector addition using OpenMP:\n");
+    printf("Calculation time: %f seconds\n", time_used);
+}
+
+void addVectorsAVX2_OMP(float *vector1, float *vector2, float *result, int size)
+{
+    double start = omp_get_wtime();
+
+    // Each __m256 register can hold 8 floats (256 bits / 32 bits)
+    int simdSize = size - (size % 8); // ensure we process in multiples of 8
+
+#pragma omp parallel for
+    for (int i = 0; i < simdSize; i += 8)
+    {
+        __m256 v1 = _mm256_loadu_ps(&vector1[i]);
+        __m256 v2 = _mm256_loadu_ps(&vector2[i]);
+        __m256 res = _mm256_add_ps(v1, v2);
+        _mm256_storeu_ps(&result[i], res);
+    }
+
+    // Handle remaining elements
+    for (int i = simdSize; i < size; i++)
+    {
+        result[i] = vector1[i] + vector2[i];
+    }
+
+    double end = omp_get_wtime();
+    double time_used = end - start;
+
+    printf("Vector addition using AVX2 SIMD + OpenMP:\n");
+    printf("Calculation time: %f seconds\n", time_used);
+}
+
+int main()
+{
+    // Allocate aligned memory for vectors for better AVX2 performance
+    float *vector1 = (float *)_mm_malloc(VECTOR_SIZE * sizeof(float), ALIGNMENT);
+    float *vector2 = (float *)_mm_malloc(VECTOR_SIZE * sizeof(float), ALIGNMENT);
+    float *result_std = (float *)_mm_malloc(VECTOR_SIZE * sizeof(float), ALIGNMENT);
+    float *result_avx2 = (float *)_mm_malloc(VECTOR_SIZE * sizeof(float), ALIGNMENT);
+    float *result_openmp = (float *)_mm_malloc(VECTOR_SIZE * sizeof(float), ALIGNMENT);
+    float *result_avx2_omp = (float *)_mm_malloc(VECTOR_SIZE * sizeof(float), ALIGNMENT);
+
+    if (!vector1 || !vector2 || !result_std || !result_avx2 || !result_openmp || !result_avx2_omp)
+    {
+        printf("Memory allocation failed!\n");
+        _mm_free(vector1);
+        _mm_free(vector2);
+        _mm_free(result_std);
+        _mm_free(result_avx2);
+        _mm_free(result_openmp);
+        _mm_free(result_avx2_omp);
+        return -1;
+    }
+
+    // Initialize vectors
+    initializeVector(vector1, VECTOR_SIZE);
+    initializeVector(vector2, VECTOR_SIZE);
+
+    // Display initial vectors
+    displayPartialVector("Vector 1", vector1, VECTOR_SIZE);
+    displayPartialVector("Vector 2", vector2, VECTOR_SIZE);
+
+    printf("Vector size: %d\n\n", VECTOR_SIZE);
+
+    // Perform standard vector addition
+    addVectorsStandard(vector1, vector2, result_std, VECTOR_SIZE);
+    displayPartialVector("Standard Result", result_std, VECTOR_SIZE);
+
+    // Perform AVX2 vector addition
+    addVectorsAVX2(vector1, vector2, result_avx2, VECTOR_SIZE);
+    displayPartialVector("AVX2 Result", result_avx2, VECTOR_SIZE);
+
+    // Perform OpenMP vector addition
+    addVectorsOpenMP(vector1, vector2, result_openmp, VECTOR_SIZE);
+    displayPartialVector("OpenMP Result", result_openmp, VECTOR_SIZE);
+
+    // Perform AVX2 + OpenMP vector addition
+    addVectorsAVX2_OMP(vector1, vector2, result_avx2_omp, VECTOR_SIZE);
+    displayPartialVector("AVX2 + OpenMP Result", result_avx2_omp, VECTOR_SIZE);
+
+    // Verify results match
+    int mismatch = 0;
+    for (int i = 0; i < VECTOR_SIZE; i++)
+    {
+        if (result_std[i] != result_avx2[i] || result_std[i] != result_openmp[i] || result_std[i] != result_avx2_omp[i])
+        {
+            mismatch = 1;
+            printf("Mismatch at index %d: Standard=%.1f, AVX2=%.1f, OpenMP=%.1f, AVX2+OpenMP=%.1f\n",
+                   i, result_std[i], result_avx2[i], result_openmp[i], result_avx2_omp[i]);
+            break;
+        }
+    }
+
+    if (mismatch)
+    {
+        printf("\nResults do not match! There might be an error in the implementation.\n");
+    }
+    else
+    {
+        printf("\nResults match! All implementations work correctly.\n");
+    }
+
+    // Free memory
+    _mm_free(vector1);
+    _mm_free(vector2);
+    _mm_free(result_std);
+    _mm_free(result_avx2);
+    _mm_free(result_openmp);
+    _mm_free(result_avx2_omp);
+
+    return 0;
+}
+// gcc -o simd_avx2 simd_avx2.c -mavx2 -fopenmp
